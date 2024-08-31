@@ -1,13 +1,14 @@
 ## Workspace Cloud Demo
 terraform {
-
+/*
   cloud {
     organization = "hashicorp-sa"
 
     workspaces {
-      name = "dev-workspace"
+      name = "vcs-driven-workspace"
     }
   }
+  */
 
   required_providers {
     aws = {
